@@ -1,0 +1,28 @@
+.recruiter_terms_links{
+    width: 200px;
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px ;
+}
+.recruiter_terms_links img{
+    width: 30%;
+    object-fit: contain;
+}
+.recruiter_terms_links_text{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.recruiter_terms_links_text p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #0063ff ;
+    margin-left: 20px;
+    text-align: left;
+}

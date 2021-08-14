@@ -1,0 +1,90 @@
+main{
+    width: 100%;
+    height: 85vh;
+    color: rgb(75,75,75);
+}
+
+#homepage{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+#homepage_text{
+    width: 50%;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 30px;
+}
+#heading h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 64px;
+}
+#heading p{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+#homepage_btns{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#homeage_btns button{
+    margin-right: 30px;
+}
+#homepage_image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#homepage_image img{
+    width: 100%;
+    object-fit: contain;
+    animation: animator 4s infinite ease-in-out;
+}
+#signup,#login{
+    width: 100px;
+    height: 50px;
+}
+#signup{
+    background: #0063ff;
+    color: #fff;
+}
+#login{
+    color: #0063ff;
+}
+
+@keyframes animator {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(4vh);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+@media only screen and (max-width:900px){
+    #homepage_img{
+        width: 0%;
+    }
+    #homepage_image img{
+        display: none;
+    }
+    #homepage_text{
+        width: 100%;
+        margin-left: 0;
+    }
+    #heading{
+        width: 100%;
+    }
+    #heading h1{
+        font-family: 'Roboto', sans-serif;
+        font-size: 48px;
+    }
+}

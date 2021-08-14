@@ -1,0 +1,74 @@
+.student_internship_page{
+    width: 100%;
+    height: fit-content;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(75,75,75);
+    text-align: justify;
+}
+.student_internship_page_wrapper{
+    width: 80%;
+    height: fit-content;
+    margin: 0 auto;
+}
+.student_internship_page p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+.studenttextHead{
+    width: 100%;
+    height: fit-content;
+}
+.studenttextHead h1{
+    font-size: 48px;
+    border-bottom: 2px solid #0063ff;
+    text-align: left;
+}
+.student_intern_subtopic{
+    width: 100%;
+}
+.student_intern_subtopic ul li h3{
+    border-bottom: 2px solid #0063ff;
+    width: fit-content;
+}
+.student_intern_subtopic img{
+    width: 40%;
+    object-fit: contain;
+}
+.student_intern_page_text{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+.student_intern_page_text h5{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.student_intern_page_desc{
+    padding-left: 30px;
+    border-left: 2px solid rgb(212, 212, 212);
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+@media only screen and (max-width:650px){
+    .student_intern_subtopic img{
+        width: 00%;
+        display: none;
+        opacity: 0;
+    }
+    .student_intern_page_text{
+    width: 100%;
+    }
+    .studenttextHead h1{
+        font-size: 36px;
+        border-bottom: 2px solid #0063ff;
+        text-align: left;
+    }
+    .student_intern_page_desc{
+        padding-left: 00px;
+        border-left: 0px solid rgb(212, 212, 212);
+    }
+}

@@ -1,0 +1,59 @@
+#signup_page{
+    width: 80%;
+    height: fit-content;
+    margin: 0 auto;
+    display: flex;
+}
+#signup_page_text{
+    width: 60%;
+}
+#signup_page h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+}
+#signup_page p{
+    font-family: 'Roboto', sans-serif;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+#form label{
+    font-family: 'Roboto', sans-serif;
+}
+ #signup_page #form p{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 30, 30);
+}
+#signup_page_image{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#signup_page_image img{
+    width: 100%;
+    object-fit: contain;
+}
+.MuiOutlinedInput-input{
+    width: 100% !important;
+}
+.input{
+    width: 100% !important;
+}
+
+@media only screen and (max-width:900px){
+    #signup_page_image{
+        display: none;
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+    #signup_page_text{
+        width: 100%;
+    }
+    #signup_page_text #form{
+        width: 100%;
+    }
+}

@@ -1,0 +1,27 @@
+.description_link_card{
+    width: 300px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0;
+    overflow: hidden;
+    transition: 0.3s ease-out;
+}
+.description_link_image{
+    width: 40%;
+    height: 70px;
+}
+.description_card_text{
+    width: 60%;
+    height: 80px;
+    font-family: 'Raleway', sans-serif;
+    font-size: bold;
+    text-align: left;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    margin-left: 10px;
+}
+
+

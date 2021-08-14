@@ -1,0 +1,85 @@
+.content_page{
+    width: 100%;
+    height: fit-content;
+    margin: 30px 0;
+    color: rgb(75,75,75);
+}
+.content_page_wrapper{
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+}
+.textHead{
+    border-bottom: 2px solid #0063FF;
+    width: fit-content;
+    font-family: 'Roboto', sans-serif;
+    font-size: bold;
+    color: rgb(75,75,75);
+    text-align: left;
+}
+.textHead h1{
+    font-size: 36px;
+}
+.textHead h4{
+    margin: 10px 0;
+    font-size: 18px;
+}
+.content_page_image{
+    width: 40%;
+    object-fit: contain;
+}
+.content_page_text {
+    margin:0 20px;
+    padding:0 30px;
+    border-left: 2px solid rgb(197, 197, 197);
+}
+.content_page_text ul{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.content_page_text ul li{
+    padding: 10px 0;
+    font-size: 16px;
+    text-align: justify;
+}
+.content_page_text p{
+    padding: 10px 0;
+    font-family: 'Raleway', sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+    text-align: justify;
+}
+.recruiter_terms_links_wrapper{
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:center;
+}
+h3{
+    padding: 20px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+h4{
+    padding: 20px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+@media only screen and (max-width:800px){
+    .content_page_wrapper{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+    }
+    .content_page_image{
+        width: 70%;
+    }
+    .content_page_text {
+        border-left: none;
+        margin: 0;
+        padding: 0;
+    }
+}
