@@ -1,18 +1,18 @@
 #legalterms{
     width: 100%;
-    min-height: 80vh;
+    min-height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
+    color: rgb(75,75,75);
 }
 #legalterms_heading{
     width: 90%;
     height: 30px;
     font-family: 'Open Sans', sans-serif;
     z-index: 2;
-    margin: 40px 0;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -21,23 +21,36 @@
 #legalterms_heading h1{
     font-size: 36px;
     width: fit-content;
-    border-bottom: 3px solid #000Aff;
+    border-bottom: 3px solid #0063FF;
     padding-bottom: 10px;
 }
 #legalterms_links{
     width: 100%;
-    min-height: 400px;
+    min-height: 200px;
     display: flex;
     flex-flow: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
 }
+#legalterms_links button{
+    height: fit-content;
+    text-transform: none;
+}
 #legalterms h3{
-    color: #000Aff;
+    color: #0063FF;
     font-family: 'Open Sans', sans-serif;
 }
 #legalterms_btn{
-    margin: 20px 0;
     padding: 5px;
+}
+@media only screen and (max-width:1050px){
+    #legalterms_heading{
+        margin-top: 30px;
+    }
+}
+@media only screen and (max-width: 600px){
+    #legalterms_btn{
+        margin: 30px 0;
+    }
 }

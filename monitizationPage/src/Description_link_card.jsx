@@ -6,7 +6,9 @@ function DESCRIPTION_LINK_CARD(props) {
         <div className="description_link_card">
             <img src={props.src} alt="" className="description_link_image" />
             <div className="description_card_text" >
-                <h4 style={{ color: "#000AFF" }} >{props.title}</h4>
+
+                <p style={{ color: "#0063ff" }} >{props.title}</p>
+                <div className="description_card_text_underline" ></div>
             </div>
         </div>
     )

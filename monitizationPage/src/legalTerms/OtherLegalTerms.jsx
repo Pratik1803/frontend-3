@@ -6,10 +6,16 @@ function OtherLegalTerms() {
     return (
         <section className="content_page" >
             <div className="content_page_wrapper" >
-                <h1 className="watermark" > Clause 17 </h1>
                 <img className="content_page_image" src={otherLegalTerms} alt="" />
                 <div className="content_page_text" >
-                    <h1>Other Legal Terms.</h1>
+                    <br />
+                    <br />
+                    <div class="textHead">
+                        <h1>Other Legal Terms</h1>
+                        <h4>Clause 18</h4>
+                    </div>
+                    <br />
+                    <br />
                     <ul>
                         <li><h3>Assignment: </h3></li>
                         <p>You may not assign, delegate or transfer this Policy or your rights or obligations hereunder, or your Social Comment account, in any way (by operation of law or otherwise) without our prior written consent. We may transfer, assign, or delegate this Policy and our rights and obligations without consent. Subject to that restriction, this policy will be binding on, inure to the benefit of, and be enforceable against the parties and their respective successors and assigns. Any attempt to assign in violation of this section is void in each instance.</p>

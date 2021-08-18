@@ -6,18 +6,16 @@ import { NavLink } from 'react-router-dom';
 function Header() {
     return (<>
         <header>
-            <div>
-                <h3 id="logo">thesocialcomment</h3>
+            <div id="logo">
+                <NavLink exact to="/thesocialcomment_monitization_page" style={{ textDecoration: "none" }}><h3>thesocialcomment</h3></NavLink>
             </div>
-            <nav>
-                <ul>
-                    <li><NavLink style={{ textDecoration: "none", paddingBottom: "10px" }} activeClassName="active_link" exact to="/about"><Button><p>About</p></Button></NavLink></li>
-                    <li><NavLink style={{ textDecoration: "none", paddingBottom: "10px" }} activeClassName="active_link" exact to="/recruiter"><Button><p>Recruiter</p></Button></NavLink></li>
-                    <li><NavLink style={{ textDecoration: "none", paddingBottom: "10px" }} activeClassName="active_link" exact to="/student"><Button><p>Student</p></Button></NavLink></li>
-                    <li><NavLink style={{ textDecoration: "none", paddingBottom: "10px" }} activeClassName="active_link" exact to="/portfolio"><Button><p>Virtual Portfolio</p></Button></NavLink></li>
-                    <li><NavLink style={{ textDecoration: "none", paddingBottom: "10px" }} activeClassName="active_link" exact to="/login"><Button style={{ backgroundColor: "#000aff", color: "#ffffff" }}><h4>Log In</h4></Button></NavLink></li>
-                </ul>
-            </nav>
+            <div id="nav_bar_links">
+                <NavLink exact to="/about" style={{ textDecoration: "none" }}><Button style={{ textTransform: "none" }}><p>About</p></Button></NavLink>
+                <NavLink exact to="/recruiter" style={{ textDecoration: "none" }}><Button style={{ textTransform: "none" }}><p>Recruiter</p></Button></NavLink>
+                <NavLink exact to="/student" style={{ textDecoration: "none" }}><Button style={{ textTransform: "none" }}><p>Student</p></Button></NavLink>
+                <NavLink exact to="/virtual-portfolio" style={{ textDecoration: "none" }}><Button style={{ textTransform: "none" }}><p>Virtual Portfolio</p></Button></NavLink>
+                <NavLink exact to="/login" style={{ textDecoration: "none" }}><Button id="login" style={{ textTransform: "none" }}><p style={{ color: "#fff" }}>Login</p></Button></NavLink>
+            </div>
         </header>
     </>
     )

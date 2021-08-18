@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @font-face {
     font-family: sifonn;
     src: url("./SIFONN_PRO.otf");
@@ -6,38 +5,24 @@
 footer{
     width: 100%;
     min-height: 30vh;
-=======
-footer{
-    width: 100%;
-    min-height: 60vh;
->>>>>>> 846c670 (my first commit 8/08/2021)
     display: flex;
     justify-content: flex-start;
     color: #fff;
     fill: #fff;
-<<<<<<< HEAD
     background: rgb(5, 0, 32);
-=======
-    background: rgb(8, 1, 48);
->>>>>>> 846c670 (my first commit 8/08/2021)
     padding: 20px;
 }
 footer h2{
     font-family: 'Open Sans', sans-serif;
 }
 footer p{
-<<<<<<< HEAD
     padding: 5px 0px;
-=======
-    padding: 5px 0;
->>>>>>> 846c670 (my first commit 8/08/2021)
     font-family: 'Raleway', sans-serif;
 }
 #footer_container{
     width: 90%;
     margin: 20px auto;
     display: flex;
-<<<<<<< HEAD
     justify-content: space-around;
     flex-flow: row;
     flex-wrap: wrap;
@@ -55,31 +40,15 @@ footer p{
     flex-direction: column;
     align-items: flex-start;
     margin: 20px 20px;
-=======
-    justify-content: space-evenly;
-    flex-flow: row;
-    flex-wrap: wrap;
-}
-#footer_first_column, #footer_second_column, #footer_third_column, #footer_fourth_column{
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px 0;
->>>>>>> 846c670 (my first commit 8/08/2021)
 }
 #footer_first_column{
     align-items: flex-start;
 }
 #footer_first_column h2{
-<<<<<<< HEAD
     font-family: sifonn;
 }
 #footer_first_column p{
     line-height: 24px;
-=======
-    font-family: 'Righteous', cursive;
->>>>>>> 846c670 (my first commit 8/08/2021)
 }
 #footer_fourth_column ul{
     list-style: none;
@@ -87,7 +56,6 @@ footer p{
 #footer_fourth_column ul li{
     display: flex;
     align-items: center;
-<<<<<<< HEAD
     padding: 5px 0;
 }
 #footer_fourth_column ul li a p{
@@ -98,21 +66,11 @@ footer p{
     fill: #fff;
     width: 18px;
     height: 18px;
-=======
-    padding: 10px 0;
-}
-.footer_svgs{
-    width: 16px;
-    height: 16px;
-    margin: 0 10px;
-    fill: #fff;
->>>>>>> 846c670 (my first commit 8/08/2021)
 }
 footer a{
     text-decoration: none;
     color: #fff;
     fill: #fff;
-<<<<<<< HEAD
 }
 
 @media only screen and (max-width: 570px){
@@ -128,6 +86,4 @@ footer a{
     #footer_container{
         justify-content: flex-start;
     }
-=======
->>>>>>> 846c670 (my first commit 8/08/2021)
 }

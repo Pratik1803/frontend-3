@@ -1,15 +1,22 @@
 import React from 'react';
 import "./styling.css";
-import disputeResolution from "../images/descriptionLinkImages/disputeResolution.jpg";
+import disputeResolution from "../images/descriptionLinkImages/disputeResolution.png";
 
 function DisputeResolution() {
+
     return (
         <section className="content_page" >
             <div className="content_page_wrapper" >
-                <h1 className="watermark" > Clause 17 </h1>
                 <img className="content_page_image" src={disputeResolution} alt="" />
                 <div className="content_page_text" >
-                    <h1>Dispute Resolution</h1>
+                    <br />
+                    <br />
+                    <div class="textHead">
+                        <h1>Dispute Resolution</h1>
+                        <h4>Clause 17</h4>
+                    </div>
+                    <br />
+                    <br />
                     <ul>
                         <li>Both parties shall attempt to resolve any dispute, difference, claim, or controversy arising out of, or related to, this Policy or the Program by negotiating with each other in good faith. However, the failure of a party to begin or continue negotiations in accordance with this sub-clause, or the failure of negotiations between the parties due to any reason, shall not prevent or preclude any party from exercising the dispute resolution mechanism mentioned in clause 17.2</li>
                         <li>Any dispute, difference, claim, or controversy arising out of, or related to, this Policy or the Program shall be resolved by binding arbitration in accordance with the provisions of the Indian Arbitration and Conciliation Act, 1996 (including any amendments or reenactments thereto). The seat of arbitration shall be Ajmer, Rajasthan, there shall be a single arbitrator, and the language of the proceedings shall be in English. Both parties agree that the decision of the arbitrator shall be final and binding on them, and that the prevailing party shall be entitled to recover all costs (including attorney’s fees) from the other party.</li>

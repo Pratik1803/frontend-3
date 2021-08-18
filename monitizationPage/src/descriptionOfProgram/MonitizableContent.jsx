@@ -3,13 +3,20 @@ import "./Content.css";
 import monitizableContent from "../images/descriptionLinkImages/monitization.jpg";
 
 function MonitizableContent() {
+
     return (
         <section className="content_page" >
             <div className="content_page_wrapper" >
-                <h1 className="watermark" > Clause 8 </h1>
                 <img className="content_page_image" src={monitizableContent} alt="" />
                 <div className="content_page_text" >
-                    <h1>Monitizable and Non-Monitizable Content.</h1>
+                    <br />
+                    <br />
+                    <div class="textHead">
+                        <h1>Monitizable And Non-Monitizable Content</h1>
+                        <h4>Clause 2</h4>
+                    </div>
+                    <br />
+                    <br />
                     <ul><label><strong>The following types of content are not monetizable on the Platform;</strong></label><br />
                         <li>Content that violates our Terms of Service;</li>
                         <li>Content that violates our Community Guidelines;</li>

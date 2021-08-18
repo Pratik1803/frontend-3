@@ -3,13 +3,20 @@ import "./Content.css";
 import contentReviewMechanism from "../images/descriptionLinkImages/contentReviewMechanism.jpg";
 
 function ContentReviewMechanism() {
+
     return (
         <section className="content_page" >
             <div className="content_page_wrapper" >
-                <h1 className="watermark" > Clause 2 </h1>
                 <img className="content_page_image" src={contentReviewMechanism} alt="" />
                 <div className="content_page_text" >
-                    <h1>Content Review Mechanism.</h1>
+                    <br />
+                    <br />
+                    <div class="textHead">
+                        <h1>Content Review Mechanism</h1>
+                        <h4>Clause 8</h4>
+                    </div>
+                    <br />
+                    <br />
                     <ul>
                         <li>If any user finds any content on the Platform to be non-monetizable in terms of clause 2.1 of this Policy, they can report such content to us by sending us an email at <a href="mailto:thesocialcomments@gmail.com">thesocialcomments@gmail.com</a> with the relevant details of the non-monetizable content. Please note that any claims or complaints based on IPR infringement shall be dealt with under the procedure outlined in our Terms of Service.</li>
                         <li>Once we receive a report of any non-monetizable content, we shall inform the content creator of the content of the same and investigate whether the content is non-monetizable or not. We will try to finish our investigation within seven (7) days of receiving the report, but it may take us up to sixty (60) days. If we find the content to be non-monetizable, we shall inform the content creator of the same and the content creator shall have twenty-four (24) hours to take down the non-monetizable content. If the content creator fails to take down the non-monetizable content within twenty-four (24) hours, we shall remove the content from the Platform.</li>

@@ -3,13 +3,20 @@ import "./Content.css";
 import paymentTerms from "../images/descriptionLinkImages/paymentTerms.jpg";
 
 function PaymentTerms() {
+
     return (
         <section className="content_page" >
             <div className="content_page_wrapper" >
-                <h1 className="watermark" > Clause 2 </h1>
                 <img className="content_page_image" src={paymentTerms} alt="" />
                 <div className="content_page_text" >
-                    <h1>Payment Terms</h1>
+                    <br />
+                    <br />
+                    <div class="textHead">
+                        <h1>Payment Terms</h1>
+                        <h4>Clause 7</h4>
+                    </div>
+                    <br />
+                    <br />
                     <ul>
                         <li>You need to have an ad provider account (such as Google AdSense) linked with the Platform in order to receive Program Fees. We may assist you with any ad provider to work with after you have completed your registration with the Program. Please note that you need to have your ad provider account linked with the Platform for the entire duration while you are registered with the Program. If your ad provider account is suspended or terminated while you are registered with the Program, you will need to link a secondary account with the Platform within fifteen (15) days of such suspension or termination.</li>
                         <li>Any Program Fees payable to you under this Policy shall be paid to you on a monthly basis. The Program Fees shall be transferred by either us or the ad provider to your ad provider account linked with the Platform. If we are transferring the Program Fees, we shall transfer the Program Fees for each calendar month within forty-five (45) days from the end of that month. In case the ad provider is transferring the Program Fees, it shall transfer the Program Fees in accordance with its Terms and Conditions. Please note that once the Program Fees have been transferred into your ad provider account, your retrieval or transfer of the Program Fees from the ad provider account shall be governed by the ad provider’s Terms and Conditions, for which we take no responsibility. </li>

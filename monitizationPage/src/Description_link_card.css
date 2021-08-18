@@ -2,18 +2,18 @@
     width: 300px;
     height: 80px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     margin: 5px 0;
     overflow: hidden;
     transition: 0.3s ease-out;
 }
 .description_link_image{
-    width: 40%;
-    height: 70px;
+    height: 70%;
+    object-fit: contain;
 }
 .description_card_text{
-    width: 60%;
+    width: fit-content;
     height: 80px;
     font-family: 'Raleway', sans-serif;
     font-size: bold;
@@ -21,7 +21,19 @@
     display: flex;
     text-align: left;
     align-items: center;
-    margin-left: 10px;
+    margin-left: 30px;
+    position: relative;
+}
+.description_card_text_underline{
+    width: 00%;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    border-bottom: 2px solid #0063FF;
+    transition: 0.4s ease-out
+}
+.description_card_text p{
+    color: #0063FF;
 }
 
 
