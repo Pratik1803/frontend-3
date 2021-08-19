@@ -1,0 +1,168 @@
+#landing_page{
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(75,75,75);
+}
+#landing_page_container{
+    width: 100%;
+    min-height: calc(90vh - 75px);
+    display: flex;
+}
+#landing_page_text{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 8%;
+}
+#landing_page_text h1{
+    font-size: 400%;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(30,30,30);
+    border-bottom: 3px solid #0063FF;
+    padding-bottom: 20px;
+}
+#landing_page_text p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: rgb(90,90,90);
+    line-height: 1.5;
+    text-align: justify;
+}
+#landing_page_text button{
+    width: 150px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0063FF;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    font-size: 16px;
+}
+:-webkit-any(article, aside, nav, section) h1 {
+    margin-block-start: 0em !important;
+    margin-block-end: 0em !important;
+}
+#learn_more_button h3{
+    color: #0063FF;
+    font-family: 'Raleway', sans-serif;
+    transition: 0.3s ease-in-out;
+}
+#landing_page_image_container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#landing_page_image{
+    width: 80%;
+    animation: landingPageImageAnimator 5s ease-out infinite;
+}
+
+
+/* Learn More Button Animation */
+#learn_more_button{
+    width: 150px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:2px solid #0063ff;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+}
+#learn_more_button h3{
+    color: #0063ff;
+    font-family: 'Raleway', sans-serif;
+    transition: 0.3s ease-in-out;
+}
+#learn_more_button:hover h3{
+    color: #fff;
+    z-index: 5;
+}
+#learn_more_button::after{
+    position: absolute;
+    bottom: 0;
+    content: "";
+    height: 00%;
+    width: 120%;
+    background: #0063ff;
+    border-radius: 25px 25px 10px 10px;
+    transition: 0.3s ease-in;
+    transform: translateY(0px);
+}
+#learn_more_button:hover::after{
+    height: 120%;
+}
+
+
+
+/* Animation for landing page */
+
+@keyframes landingPageImageAnimator {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(7%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    #landing_page_text h1{
+        font-size: 300%;
+        font-family: 'Raleway', sans-serif;
+    }
+    #learn_more_button{
+        width: 150px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border:3px solid #0063FF;
+        border-radius: 50px;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    #landing_page{
+        min-height: calc(100vh - 75px);
+    }
+    #landing_page_container{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    #landing_page_gradient{
+        height: calc(100vh - 75px);
+    }
+    #landing_page_text{
+        width: 90%;
+        margin: 0 5%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #learn_more_button{
+        transform: translateX(0%);
+    }
+    #landing_page_image_container{
+        width: 70%;
+    }
+}

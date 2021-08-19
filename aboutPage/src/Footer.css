@@ -1,0 +1,92 @@
+@font-face {
+    font-family: sifonn;
+    src: url("./SIFONN_PRO.otf");
+}
+footer{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    color: #fff;
+    fill: #fff;
+    background: rgb(5, 0, 32);
+    padding: 20px;
+}
+footer h2{
+    font-family: 'Open Sans', sans-serif;
+}
+footer p{
+    padding: 5px 0px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1;
+}
+#footer_container{
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+#footer_first_column{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px 20px;
+    height: fit-content;
+}
+#footer_second_column, #footer_third_column, #footer_fourth_column{
+    width: 150px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px 20px;
+}
+#footer_first_column{
+    align-items: flex-start;
+}
+#footer_first_column h2{
+    font-family: sifonn;
+}
+#footer_first_column p{
+    line-height: 24px;
+}
+#footer_fourth_column ul{
+    list-style: none;
+}
+#footer_fourth_column ul li{
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+#footer_fourth_column ul li a p{
+    margin-right: 5px;
+}
+#footer_fourth_column ul li svg{
+    margin: 0 10px;
+    fill: #fff;
+    width: 18px;
+    height: 18px;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+    fill: #fff;
+}
+
+@media only screen and (max-width: 570px){
+    #footer_third_column{
+        width: 0;
+        height: 0;
+        opacity: 0;
+        pointer-events: none;
+        display: none;
+    }
+}
+@media only screen and (max-width: 450px){
+    #footer_container{
+        justify-content: flex-start;
+    }
+}

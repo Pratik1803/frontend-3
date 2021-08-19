@@ -1,0 +1,259 @@
+#glass_about{
+    width: 100%;
+    height: fit-content;
+}
+#glass_about_wrapper{
+    width: 90%;
+    height: fit-content;
+    margin: 0 auto;
+}
+#glass_about_text{
+    position: relative;
+    width: 100%;
+    min-height: 200px;
+}
+#glass_about_text img{
+    position: absolute;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    opacity: 0.1;
+}
+#glass_about_desc{
+    position: absolute;
+    top: 30%;
+}
+#glass_about_desc h1{
+    color: rgb(109, 109, 109);
+    font-size: 36px;
+}
+#glass_about_desc h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+#technologies{
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color: rgb(110,110,110);
+    text-align: center;
+}
+#glass_about_goals{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+}
+#goals_collage{
+    width: 50%;
+    height: fit-content;
+}
+#goals_collage h1{
+    font-size: 36px;
+}
+#goals_collage p{
+    color: rgb(126, 126, 126);
+    font-size: 18px;
+}
+#horizontal1, #horizontal2{
+    display: flex;
+    margin: 10px;
+}
+#institute, #students, #portfolio, #projects{
+    width: 50%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+    box-shadow:5px 5px 8px rgba(0,0,0,0.05);
+    border-radius: 10px;
+}
+#collage_image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#collage_image img{
+    width: 70%;
+    object-fit: cover;
+    transition: 0.4s ease-out;
+    animation: spaceship infinite 4s;
+}
+@keyframes spaceship{
+    0%{
+        transform: translateY(0%);
+    }
+    50%{
+        transform: translateY(5%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+#institute h1{
+    color: #08BD80;
+}
+#students h1{
+    color: #0063ff;
+}
+#portfolio h1{
+    color: #FFAD3B;
+}
+#projects h1{
+    color: #EB5757;
+}
+
+#mission_links{
+    width: 100%;
+    height: fit-content;
+}
+.horizontal{
+    width: 100%;
+    height:fit-content;
+    display: flex;
+}
+.mission_links_individual{
+    width: 50%;
+    min-width: 300px;
+    min-height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin: 20px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    overflow: hidden;
+    border-radius: 10px;
+}
+.one{
+    background-image: url(https://images.unsplash.com/photo-1577511425081-0ec68e1bd454?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=725&q=80);
+}
+.two{
+    background-image: url(https://images.unsplash.com/photo-1557425493-6f90ae4659fc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+}
+.three{
+    background-image: url(https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dG9nZXRoZXJ8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60);
+}
+.four{
+    background-image: url(https://images.unsplash.com/photo-1606277112566-ca7320d94e37?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+    border-radius: 10px;
+}
+.mission_links_individual h4{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    transition: 0.4s ease-out;
+    text-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+    font-size: 24px;
+}
+.mission_links_desc p{
+    z-index: 5;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    transition: 0.4s ease-out;
+    opacity: 0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+.mission_links_desc{
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    height: 00%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 0.4s ease-out;
+}
+.mission_links_desc::before{
+    position: absolute;
+    content: " ";
+    left: 0%;
+    bottom: 0%;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(50px);
+    z-index: 4;
+}
+
+.mission_links_individual:hover h4{
+    transform: translate(-50%, -200%);
+}
+.mission_links_individual:hover .mission_links_desc p{
+    opacity: 1;
+}
+.mission_links_individual:hover .mission_links_desc{
+    height: 50%;
+}
+
+
+@media only screen and (max-width:800px){
+    #glass_about_desc{
+        height: fit-content;
+        text-align: justify;
+    }
+    #glass_about_desc h3{
+        font-size: 18px;
+        line-height: 1.2;
+        letter-spacing: 1px;
+        font-weight: 300;
+    }
+    #glass_about_goals{
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    #glass_about_goals h1{
+        font-size: 24px;
+    }
+    #goals_collage{
+        width: 90%;
+        height: fit-content;
+    }
+    #goals_collage p{
+        font-size: 16px;
+    }
+    #institute, #students, #portfolio, #projects{
+        width: 90%;
+        position: relative;
+    }
+    #goals_collage h1{
+        position: absolute;
+        top: 30%;
+    }
+    #goals_collage p{
+        position: absolute;
+        top: 50%;
+    }
+    #collage_image{
+        width: 90%;
+    }
+    .horizontal{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #technologies{
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 1.5;
+    }
+    .mission_links_desc p{
+        font-size: 14px;
+        line-height: 1.1;
+        font-weight: 300;
+    }
+}

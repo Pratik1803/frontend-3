@@ -1,0 +1,35 @@
+.description_link_card{
+    width: 20vw;
+    min-width: 250px;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 10px;
+    overflow: hidden;
+    transition: 0.3s ease-out;
+}
+.description_card_image{
+    width: 20%;
+    object-fit: contain;
+}
+.description_card_text{
+    width: fit-content;
+    height: 80px;
+    font-family: 'Raleway', sans-serif;
+    font-size: bold;
+    text-align: left;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    margin-left: 30px;
+    position: relative;
+}
+.description_card_text p{
+    text-align: left;
+}
+.description_card_text p{
+    color: #0063FF;
+}
+
+
